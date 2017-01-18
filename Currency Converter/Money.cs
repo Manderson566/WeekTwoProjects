@@ -8,20 +8,26 @@ namespace Currency_Converter
 {
     class Money
     {
-        public double value;
-        public double exchangeRate;
-
+    
+        public double value2;
+        public double value1;
+        
         public Money() { }
 
-        public Money(double _value, double _exchangeRate)
+        public Money(double _value1, double _value2)
         {
-            value = _value;
-            exchangeRate = _exchangeRate;
+            value1 = _value1;
+            value2 = _value2;
         }
+
+
+
+
         public virtual double Exchange()
         {
             return 2;
         }
-        
+
     }
 }
+

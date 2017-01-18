@@ -10,9 +10,8 @@ namespace Currency_Converter
     {
         static void Main(string[] args)
         {
-            var usd = new USD(2, 200);
-            double usdAnswer = usd.Exchange();
-            Console.WriteLine(usdAnswer);
+           
+            JPYtoUSD();
 
         }
     }

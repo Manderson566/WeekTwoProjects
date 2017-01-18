@@ -6,36 +6,36 @@ using System.Threading.Tasks;
 
 namespace Currency_Converter
 {
-    class USD : Money
+    class JPY : Money
     {
-        double usd = 1;
+        double usd = 0.0087;
         double jpn = 144.44;
-        double eur = 0.94;
-        double btc = 0.0011;
-        public USD(double _value1, double _value2) : base( _value1,  _value2)
+        double eur = 0.0082;
+        double btc = 0.0000099;
+        public JPY(double _value1, double _value2) : base( _value1,  _value2)
         {
-            
+
         }
 
         public void JPNtoUSD()
         {
-            value1 = usd;
-            value2 = jpn;
+            value1 = jpn;
+            value2 = usd;
         }
 
         public void EWURtoUSD()
         {
-            value1 = usd;
+            value1 = jpn;
             value2 = eur;
         }
         public void EURtoUSD()
         {
-            value1 = usd;
+            value1 = jpn;
             value2 = eur;
         }
         public void BTCtoUSD()
         {
-            value1 = usd;
+            value1 = jpn;
             value2 = btc;
         }
 
@@ -48,3 +48,5 @@ namespace Currency_Converter
 
     }
 }
+
+
