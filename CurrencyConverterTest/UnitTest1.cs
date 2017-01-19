@@ -8,8 +8,9 @@ namespace CurrencyConverterTest
     {
         
         [TestMethod]
-        public void TestMethod1()
+        public void USDtoJPNcheck()
         {
+            var sut = new USD()
         }
     }
 }

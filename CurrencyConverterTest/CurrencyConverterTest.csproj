@@ -53,12 +53,6 @@
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Currency Converter\Currency Converter.csproj">
-      <Project>{13847e61-bd2e-4234-b46c-92b808bcd1b5}</Project>
-      <Name>Currency Converter</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
