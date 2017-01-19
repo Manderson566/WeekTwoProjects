@@ -23,16 +23,12 @@ namespace Currency_Converter
             value2 = jpn;
         }
 
-        public void EWURtoUSD()
-        {
-            value1 = usd;
-            value2 = eur;
-        }
         public void EURtoUSD()
         {
             value1 = usd;
             value2 = eur;
         }
+
         public void BTCtoUSD()
         {
             value1 = usd;

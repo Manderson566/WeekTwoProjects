@@ -8,9 +8,11 @@ namespace Currency_Converter
 {
     class Money
     {
-    
+        public double value4;
+        public double value3;
         public double value2;
         public double value1;
+       
         
         public Money() { }
 
@@ -19,7 +21,7 @@ namespace Currency_Converter
             value1 = _value1;
             value2 = _value2;
         }
-
+ 
 
 
 

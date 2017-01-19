@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Currency_Converter
 {
-    class Program
+    class Program 
     {
         static void Main(string[] args)
         {
            
-            JPYtoUSD();
 
         }
     }

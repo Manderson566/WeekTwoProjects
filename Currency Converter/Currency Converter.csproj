@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BTC.cs" />
+    <Compile Include="EUR.cs" />
     <Compile Include="JPY.cs" />
     <Compile Include="Money.cs" />
     <Compile Include="Program.cs" />
